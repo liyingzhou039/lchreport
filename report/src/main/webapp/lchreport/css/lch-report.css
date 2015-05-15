@@ -1,0 +1,107 @@
+		TABLE{
+			border-collapse: collapse;
+			border-top:solid #e7d4b3 1px;
+			border-right:solid #e7d4b3  1px;
+			width:100%;
+		}
+		#lch_DataHead TR TH{
+			height:30px;
+			background: none repeat scroll 0 0 #ffecc8;
+		}
+		#lch_DataBody TR:hover {
+			background-color: rgba(129, 208, 177, 0.3);
+		}
+		#lch_DataHead TR TH,#lch_DataBody TR TD{
+			border-left: 1px solid #e7d4b3;
+			color: #d28531;
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			white-space: nowrap;
+			border-bottom: 1px solid #c0e2ef;
+			padding: 0.4em 1em;
+			box-sizing: border-box;
+		}
+		#lch_DataBody TR{
+			background-color: #fff;
+		}
+		#lch_DataBody TR TD{
+			text-align: left;
+    		color: #717171;
+    		font-family: "微软雅黑",Arial,"Simsun",sans-serif,SimSun,"宋体",Heiti,"黑体";
+    		font-weight: normal;
+		}
+		a.sub_off {
+			background: url("../images/a_sub_o.png") no-repeat scroll 0 0 transparent;
+			height: 22px;
+			padding-left: 22px;
+		}
+		a.sub_on {
+			background: url("../images/a_sub.png") no-repeat scroll 0 2px transparent;
+			height: 22px;
+			padding-left: 22px;
+		}
+		a.asc {
+			background: url("../images/asc.png") no-repeat scroll 0 0 transparent;
+			height: 22px;
+			cursor: pointer;
+			padding-left:24px;
+			z-index: 9999;
+		}
+		a.desc {
+			background: url("../images/desc.png") no-repeat scroll 0 0 transparent;
+			height: 22px;
+			cursor: pointer;
+			padding-left:24px;
+			z-index: 9999;
+		}
+		a.space {
+			height: 22px;
+			cursor: pointer;
+			padding-left:24px;
+			z-index: 9999;
+		}
+		
+		
+		
+		.lch_DataHead TR TH{
+			height:30px;
+			background: none repeat scroll 0 0 #ffecc8;
+		}
+		.lch_DataBody TR:hover {
+			background-color: rgba(129, 208, 177, 0.3);
+		}
+		.lch_DataHead TR TH,.lch_DataBody TR TD{
+			border-left: 1px solid #e7d4b3;
+			color: #d28531;
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			white-space: nowrap;
+			border-bottom: 1px solid #c0e2ef;
+			padding: 0.4em 1em;
+			box-sizing: border-box;
+		}
+		.lch_DataBody TR{
+			background-color: #fff;
+		}
+		.lch_DataBody TR TD{
+			text-align: left;
+    		color: #717171;
+    		font-family: "微软雅黑",Arial,"Simsun",sans-serif,SimSun,"宋体",Heiti,"黑体";
+    		font-weight: normal;
+		}
+		
+		.cp{
+			float:left;
+			index:9999;
+		}
+		.cp-table{
+			background: url("../images/table.png") no-repeat scroll 0 0 transparent;
+			height: 32px;
+			width:32px;
+			cursor: pointer;
+		}
+		.layout-panel,.panel{
+			overflow: visible;
+		}

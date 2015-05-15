@@ -1,0 +1,69 @@
+.layout-panel,.panel{
+	overflow: visible;
+}
+#editTable TD {
+	border-left: solid #e7d4b3 1px;
+	border-top: solid #e7d4b3 1px;
+}
+
+#editTable TR {
+	height: 25px;
+}
+
+#editTable TABLE {
+	border-collapse: collapse;
+	border-bottom: solid #e7d4b3 1px;
+	border-right: solid #e7d4b3 1px;
+}
+
+#editTable .selTop {
+	border-top: solid black 1px;
+}
+
+#editTable .selBottom {
+	border-bottom: solid black 1px;
+}
+
+#editTable .selLeft {
+	border-left: solid black 1px;
+}
+
+#editTable .selRight {
+	border-right: solid black 1px;
+}
+
+#editTable .selToolBox {
+	width: 60px;
+}
+
+#editTable .sel {
+	background-color: #6495ed;
+}
+
+#editTable .button {
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	height: 20px;
+	background-color: #a1a1a1;
+	text-align: center;
+	line-height: 20px;
+}
+
+#editTable .title {
+	background: none repeat scroll 0 0 #ffecc8;
+	text-align: center;
+	border-left: solid #e7d4b3 1px;
+	border-top: solid #e7d4b3 1px;
+	overflow: hidden;
+}
+#topTool .title{
+	padding-left:5px;
+	padding-right:5px;
+}
+#tableBody TD{
+	white-space:nowrap;
+	text-align: left;
+	padding-left:5px;
+	padding-right:5px;
+}
